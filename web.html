@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MogStore</title>
+    <script src="https://kit.fontawesome.com/c7d926d912.js" crossorigin="anonymous"></script>
+    <link href="/icon/css/fontawesome.css" rel="stylesheet">
+    <link href="/icon/css/brands.css" rel="stylesheet">
+    <link href="/icon/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-container " id="body-container">
+
+        <header>
+            <nav class="nav-c">
+                <div class="logo">Mog<p>S</p>tor</div>
+                <ul class="nav-lis-con">
+                    <li class="list-items"><a href="" class="linkt">Home</a></li>
+                    <li class="list-items"><a href="" class="linkt">About us</a></li>
+                    <li class="list-items"><a href="" class="linkt">gallery</a></li>
+                    <li class="list-items"><a href="#product-list-item" class="linkt">Product</a></li>
+                    <li class="list-items"><a href="" class="linkt">cart</a></li>
+                    <li class="list-items cart-icon-container">
+                         <i class="fa fa-cart-shopping"></i>
+                         <div class="increment-numb">0</div>
+                        </li>
+                </ul>
+            </nav>
+            <div class="content-container">
+               <div class="content">
+                  <div class="text">
+                    <div class="text-wrapper">
+                        <h3>Xperienttce the best discount ever </h3>
+                            <p>Lorem ipsum dolor
+                             sit amet consectetur adipisicing elit. Facere enim distinctio molestias quas praesentium consectetur a, voluptates ducimus quis quidem
+                             eligendi quod? Debitis a quia
+                              provident, nam distinctio fugiat esse?</p>
+                              <button class="botton-1">Get started</button>
+                        
+                    </div>
+                    <div class="text-wrapper">
+                        <h3>Xperienceuu the best discount ever </h3>
+                            <p>Lorem ipsum dolor
+                             sit amet consectetur adipisicing elit. Facere enim distinctio molestias quas praesentium consectetur a, voluptates ducimus quis quidem
+                             eligendi quod? Debitis a quia
+                              provident, nam distinctio fugiat esse?</p>
+                              <button class="botton-1">Get started</button>
+                        
+                    </div>
+                    <div class="text-wrapper">
+                        <h3>Xperieyynce the best discount ever </h3>
+                            <p>Lorem ipsum dolor
+                             sit amet consectetur adipisicing elit. Facere enim distinctio molestias quas praesentium consectetur a, voluptates ducimus quis quidem
+                             eligendi quod? Debitis a quia
+                              provident, nam distinctio fugiat esse?</p>
+                              <button class="botton-1">Get started</button>
+                        
+                    </div>
+                    <div class="text-wrapper">
+                        <h3>Xperimmmence the best discount ever </h3>
+                            <p>Lorem ipsum dolor
+                             sit amet consectetur adipisicing elit. Facere enim distinctio molestias quas praesentium consectetur a, voluptates ducimus quis quidem
+                             eligendi quod? Debitis a quia
+                              provident, nam distinctio fugiat esse?</p>
+                              <button class="botton-1">Get started</button>
+                        
+                    </div>
+                     
+                  </div>
+                                
+               </div>
+               <div class="list-img">
+                <div class='img-wrapper'></div>
+               </div>
+             </div>
+            </header>  
+        </div>
+        <div class="dots">
+            <span class="dot dot_light"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div> 
+        <!-----List of product-->
+      <div class="products">
+          
+            <!--  <div class="cartegory">
+                <span class="active">All</span>
+                <span>food stuff</span>
+                <span>noodles</span>
+                <span>insecticide</span>
+                <span>biscuit</span>
+             </div>
+             -->   
+            <h3 class="prod-title">Features</h3>
+            <ul class="list-prod">
+                <section class="pro"><img src="/image/pexels-omran-jamal-17609_bgremoval.ai.png" alt=""></section>  
+                <section class="pro"><img src="/image/pexels-omran-jamal-17609.jpg" alt=""></section>  
+                <section class="pro"><img src="/image/1-laptops.png" alt=""></section>  
+                <section class="pro"><img src="/image/10.jpg" alt=""></section>  
+                <section class="pro"><img src="/image/pexels-omran-jamal-17609_bgremoval.ai.png" alt=""></section>  
+                <section class="pro"><img src="/image/pexels-omran-jamal-17609_bgremoval.ai.png" alt=""></section>  
+            </ul>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="cartegory-head">
+            <i  onclick="timesbtn()" id="times-btn" class="fa-sharp fa-solid fa-circle-xmark"></i>
+            <h3 id="uu" >category</h3>  
+        </div>
+        <div class="list-con-category">
+        </div>
+    </div>
+
+    <div class="product-list-item" id="product-list-item">
+        <div class="prod-cart-con"> 
+        <div class="cartegory">category </div>    
+        <h2 class="prod-type">All product</h2>
+        </div>
+       <div class="product-available"></div>
+ 
+    </div>
+    <div class="right_sidebar">
+        <div class="header-con">
+            <div class="heading-of-item">
+                <i  id="close-cart-co"  class="fa-sharp fa-solid fa-circle-xmark"></i>
+                <li>Item</li>
+                <li>Price</li>
+                <li>qauntity</li>
+                <li>Total</li>
+            </div>
+             
+        </div> 
+        <div class="items">
+        </div>
+         
+        <div class="grand_total-con">
+            <h3>Grand Total</h3>
+            <p class="figure">$00</p>
+    </div>
+     </div>
+    
+    <script src="list.js"></script>
+    <script src="js.js"></script>
+    
+    <script src="./cartegorylist.js"></script>
+    <script src="./cartegory.js"></script>
+     
+</body>
+</html>
